@@ -13,7 +13,7 @@ class EmailAddressParser
       address.split(',') 
     end
    
-    .flatten.uniq 
+    emails.flatten.uniq 
   end 
  
   
